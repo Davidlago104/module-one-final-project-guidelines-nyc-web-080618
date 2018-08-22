@@ -1,4 +1,4 @@
-class CreatePokemontrainers < ActiveRecord::Migration
+class CreatePokemontrainers < ActiveRecord::Migration[5.2]
   def change
     create_table :pokemontrainers do |t|
       t.integer :wins
